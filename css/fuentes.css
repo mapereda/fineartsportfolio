@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: 'titulos';
+	src: url('../fonts/RalewayDots-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'autor';
+	src: url('../fonts/OvertheRainbow.ttf') format('truetype');
+}
+
+h1{
+	font-family: 'autor';
+	color: white;
+	display: block;
+	padding: 2%;
+	text-shadow: 1px 1px 2px black, 0 0 25px lightgrey, 0 0 5px grey;
+}
+
+h2{
+	font-family: 'titulos';
+	color: white;
+	display: block;
+	padding: 1%;
+	background: rgba(0, 0, 0, .7);
+	
+}
+
+h3{
+	font-family: 'autor';
+	text-align: center;
+
+}
+
+p{
+	font-family: Arial;
+	text-align: justify;
+}
+
+a{
+	text-decoration: none;
+	font-family: Arial;
+	
+}
+
+.mihistoria a{
+	color: salmon;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.formulario div{
+	font-family: Arial;
+
+}
+
+input[type="text"]{
+	font-family: Arial;
+}
+
+input[type="submit"]{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+input[type="reset"]{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#comentarios{
+	font-family: Arial;
+}
+
+.cuentas div a{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+@media screen and (max-width: 991px){
+
+
+	h3{
+		font-size: 8vw;
+	}
+
+	.curriculum a{
+		margin: 4%;
+		text-decoration: none;
+		font-weight: bold;
+		color: white;
+		font-size: 3vw;
+		text-align: center;
+	}
+
+	.salmon{
+		font-family: 'autor';
+		font-weight: bold;
+		color: salmon;
+		font-size: 4vw;
+	}
+
+	.cuentas p{
+		font-size: 3vw;
+	}
+
+}
+
+
+
+@media screen and (min-width: 992px){
+
+	h1{
+		font-size: 8vw;
+	}
+
+	h2{
+		font-size: 2vw;	
+	}
+
+	h3{
+		font-size: 4vw;
+	}
+
+	.curriculum a{
+		text-decoration: none;
+		font-weight: bold;
+		color: white;
+		font-size: 1vw;
+		text-align: center;
+	}
+
+	.salmon{
+		font-family: 'autor';
+		font-weight: bold;
+		color: salmon;
+		font-size: 2vw;
+	}
+}

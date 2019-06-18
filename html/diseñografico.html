@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/estructura.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/fuentes.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			~$(".m-abrir").click(function(){
+
+				$("nav").css("display", "block");
+
+				$(".m-abrir").css("display", "none");
+
+				$(".m-cerrar").css("display", "block");
+
+			});
+
+			~$(".m-cerrar").click(function(){
+
+				$("nav").css("display", "none");
+
+				$(".m-cerrar").css("display", "none");
+
+				$(".m-abrir").css("display", "block");
+
+			});
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+			  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			    var target = $(this.hash);
+			    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			    if (target.length) {
+			      $('html, body').animate({
+			        scrollTop: target.offset().top
+			      }, 700);
+			      return false;
+			    }
+			  }
+			});
+
+			$(".cartel1").click(function(){
+				$(".cartel-fondo").css("background-image", "url(../img/cartel1.jpg)");
+			});
+
+			$(".cartel2").click(function(){
+				$(".cartel-fondo").css("background-image", "url(../img/cartel2.jpg)");
+			});
+
+			$(".cartel3").click(function(){
+				$(".cartel-fondo").css("background-image", "url(../img/cartel3.jpg)");
+			});
+
+			$(".cartel4").click(function(){
+				$(".cartel-fondo").css("background-image", "url(../img/cartel4.jpg)");
+			});
+
+			$(".cartel5").click(function(){
+				$(".cartel-fondo").css("background-image", "url(../img/cartel5.jpg)");
+			});
+
+			$(".cartel6").click(function(){
+				$(".cartel-fondo").css("background-image", "url(../img/cartel6.jpg)");
+			});
+
+			$(".logo1").click(function(){
+				$(".logo-fondo").css("background-image", "url(../img/logo1.jpg)");
+			});
+
+			$(".logo2").click(function(){
+				$(".logo-fondo").css("background-image", "url(../img/logo2.jpg)");
+			});
+
+			$(".forland1").click(function(){
+				$(".forland-fondo").css("background-image", "url(../img/forland1.jpg)");
+			});
+
+			$(".forland2").click(function(){
+				$(".forland-fondo").css("background-image", "url(../img/forland2.jpg)");
+			});
+
+			$(".forland3").click(function(){
+				$(".forland-fondo").css("background-image", "url(../img/forland3.jpg)");
+			});
+
+			$(".forland4").click(function(){
+				$(".forland-fondo").css("background-image", "url(../img/forland4.jpg)");
+			});
+
+			$(".forland5").click(function(){
+				$(".forland-fondo").css("background-image", "url(../img/forland5.jpg)");
+			});
+
+			$(".forland6").click(function(){
+				$(".forland-fondo").css("background-image", "url(../img/forland6.jpg)");
+			});
+
+			$(".forland7").click(function(){
+				$(".forland-fondo").css("background-image", "url(../img/forland7.jpg)");
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+		
+	<header>
+
+		<div class="logo">
+			<img src="../img/logo.png">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio              </a></li>
+				<li><a href="#">Diseño Gráfico                  </a></li>
+				<li><a href="dibujo.html">Dibujo e Ilustración  </a></li>
+				<li><a href="fotografia.html">Fotografía        </a></li>
+				<li><a href="multimedia.html">Multimedia        </a></li>
+				<li><a href="sobremi.html">Sobre mí             </a></li>
+				<li><a href="contacto.html">Contacto            </a></li>
+			</ul>
+		</nav>
+
+		<div class="m-abrir">
+			<img src="../img/menu.png">
+		</div>
+
+		<div class="m-cerrar">
+			<img src="../img/menu.png">
+		</div>
+	</header>
+	
+	<a name="arriba"></a>
+	<section class="diseñog">		
+		<div class="diseño1">
+			<a href="#carteleria"><h2>Cartelería</h2></a>
+		</div>
+
+		<div class="diseño2">
+			<a href="#logos"><h2>Logotipos</h2></a>
+		</div>
+		<div class="diseño3">
+			<a href="#forland"><h2>Forland Ecocosmetics</h2></a>
+		</div>
+	</section>
+
+
+	<a name="carteleria"></a>
+	<section class="dsñ-secciones">
+
+		<h3>Cartelería</h3>
+
+		<!-- CARTELERIA GALERIA  -->
+		<div class="galeria">
+
+			 <div class="img_cartel">
+			 	<div class="cartel-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_cartel">
+			 	<div class="cartel1">
+			 		<img src="../img/cartel1.jpg">
+			 	</div>
+			 	<div class="cartel2">
+			 		<img src="../img/cartel2.jpg">
+			 	</div>
+			 	<div class="cartel3">
+			 		<img src="../img/cartel3.jpg">
+			 	</div>
+			 	<div class="cartel4">
+			 		<img src="../img/cartel4.jpg">
+			 	</div>
+			 	<div class="cartel5">
+			 		<img src="../img/cartel5.jpg">
+			 	</div>
+			 	<div class="cartel6">
+			 		<img src="../img/cartel6.jpg">
+			 	</div>
+			 </div>
+		</div>
+
+		<div class="arriba1">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+
+	</section>
+
+	<a name="logos"></a>
+	<section class="dsñ-secciones">
+		<h3>Logotipos</h3>
+
+		<!-- LOGOS GALERIA  -->
+		<div class="galeria">
+
+			 <div class="img_logo">
+			 	<div class="logo-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_logo">
+			 	<div class="logo1">
+			 		<img src="../img/logo1.jpg" alt="">
+			 	</div>
+			 	<div class="logo2">
+			 		<img src="../img/logo2.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+		
+		<div class="arriba2">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="forland"></a>
+	<section class="dsñ-secciones">
+
+		<h3>Forland Ecocosmetics</h3>
+
+		<!-- FORLAND GALERIA  -->
+		<div class="galeria">
+
+			<div class="img_forland">
+				<div class="forland-fondo"></div>
+			</div>
+
+			 <div class="contenedor_forland">
+			 	<div class="forland1">
+			 		<img src="../img/forland1.jpg" alt="">
+			 	</div>
+			 	<div class="forland2">
+			 		<img src="../img/forland2.jpg" alt="">
+			 	</div>
+			 	<div class="forland3">
+			 		<img src="../img/forland3.jpg" alt="">
+			 	</div>
+			 	<div class="forland4">
+			 		<img src="../img/forland4.jpg" alt="">
+			 	</div>
+			 	<div class="forland5">
+			 		<img src="../img/forland5.jpg" alt="">
+			 	</div>
+			 	<div class="forland6">
+			 		<img src="../img/forland6.jpg" alt="">
+			 	</div>
+			 	<div class="forland7">
+			 		<img src="../img/forland7.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+
+		<div class="arriba3">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<footer>
+		<p>Creado por María Pereda</p>
+		<div class="iconos">
+			<a href="https://www.youtube.com/user/milyval" target="_blanck">
+				<img src="../img/youtube.png">
+			</a>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>

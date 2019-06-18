@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/estructura.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/fuentes.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			~$(".m-abrir").click(function(){
+
+				$("nav").css("display", "block");
+
+				$(".m-abrir").css("display", "none");
+
+				$(".m-cerrar").css("display", "block");
+
+			});
+
+			~$(".m-cerrar").click(function(){
+
+				$("nav").css("display", "none");
+
+				$(".m-cerrar").css("display", "none");
+
+				$(".m-abrir").css("display", "block");
+
+			});
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+			  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			    var target = $(this.hash);
+			    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			    if (target.length) {
+			      $('html, body').animate({
+			        scrollTop: target.offset().top
+			      }, 700);
+			      return false;
+			    }
+			  }
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+		
+	<header>
+
+		<div class="logo">
+			<img src="../img/logo.png">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio              </a></li>
+				<li><a href="diseñografico.html">Diseño Gráfico </a></li>
+				<li><a href="dibujo.html">Dibujo e Ilustración  </a></li>
+				<li><a href="fotografia.html">Fotografía        </a></li>
+				<li><a href="#">Multimedia                      </a></li>
+				<li><a href="sobremi.html">Sobre mí             </a></li>
+				<li><a href="contacto.html">Contacto            </a></li>
+			</ul>
+		</nav>
+
+		<div class="m-abrir">
+			<img src="../img/menu.png">
+		</div>
+
+		<div class="m-cerrar">
+			<img src="../img/menu.png">
+		</div>
+	</header>
+	
+	<a name="arriba"></a>
+	<section class="multimedia">		
+		<div class="multimedia1"><a href="#isa"><h2>8.153</h2></a></div>
+		<div class="multimedia2"><a href="#bellosartos"><h2>Bellos Artos</h2></a></div>
+		<div class="multimedia3"><a href="#stopmotion"><h2>StopMotion</h2></a></div>
+		<div class="multimedia4"><a href="#trailer"><h2>Trailer</h2></a></div>
+	</section>
+
+	<a name="isa"></a>
+	<section class="multi-secciones">
+
+		<h3>8.153</h3>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/IkZn164vOIs" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="descripcion">
+			<p>Ensayo audiovisual en el que hablo de la marcha de una hija que se va a vivir al extranjero por trabajo.</p>
+			<p>Desde una visión madre-hija, de mi propia experiencia familiar, se entremezclan el pasado y el presente, buscando una reflexión acerca del momento en el que un hijo se independiza y de la llamada "fuga de cerebros".</p>
+		</div>
+
+		<div class="arriba1">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="bellosartos"></a>
+	<section class="multi-secciones">
+
+		<h3>Bellos Artos</h3>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/F0xVvGdnty4" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="descripcion">
+			<p>En muchas ocasiones, en el arte todo vale. Ponemos en duda si de verdad sabemos reconocer el arte.</p>
+		</div>
+
+		<div class="arriba2">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="stopmotion"></a>
+	<section class="multi-secciones">
+
+		<h3>StopMotion</h3>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ozQydQudNCw" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="descripcion">
+			<p>StopMotion sin aparente sentido mas que el de cumplir con un trabajo de la facultad, siendo los protagonistas ¿las cartas o los nombres que en ellas aprecen?</p>
+		</div>
+		<div class="arriba3">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="trailer"></a>
+	<section class="multi-secciones">
+
+		<h3>Trailer "Danzando con la Tradición"</h3>
+		<div class="video">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/bn4ujb1rlUg" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="descripcion">
+			<p>Cortometraje-Documental sobre la Fiesta del Niño Perdido, una tradición que se viene celebrando en la localidad de Valdenuño Fernández (Guadalajara) desde el año 1721.</p>
+		</div>
+
+		<div class="arriba4">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+
+
+	<footer>
+		<p>Creado por María Pereda</p>
+		<div class="iconos">
+			<a href="https://www.youtube.com/user/milyval" target="_blanck"><img src="../img/youtube.png"></a>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>

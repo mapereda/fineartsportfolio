@@ -1,0 +1,1985 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+footer a{
+	text-decoration: none;
+	font-size: 0px;
+}
+
+footer img{
+	width: 25px;
+	height: 25px;
+}
+
+
+
+/* RESPONSIVE MOVIL Y TABLET*/
+
+@media screen and (max-width: 991px){
+	
+	header{
+		width: 100%;
+		height: auto;
+		float: left;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.logo{
+		width: 30%;
+		height: auto;
+		margin: 2%;
+	}
+
+	.logo img{
+		width: 100%;
+		height: auto;
+	}
+
+	.m-abrir{
+		position: absolute;
+		display: block;
+	}
+
+	.m-cerrar{
+		position: absolute;
+		display: none;
+	}
+
+	footer{
+		width: 100%;
+		height: auto;
+		position: relative;
+		bottom: 0px;
+		left: 0px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 1%;
+		background: rgba(230, 229, 230, 0.7);
+	}
+
+	.fondo_inicio{
+		width: 100%;
+		height: auto;
+		float: left;
+		clear: fixed;
+		margin-top: 5%;	
+	}
+
+	.fondo_inicio h1{
+		display: none;
+	}
+
+	.fondo_inicio div{
+		width: 80%;
+		height: auto;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.fondo_inicio div img{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+
+	.arriba1, .arriba2, .arriba3, .arriba4, .arriba5{
+		display: none;
+	}
+
+	/* DISEÑO GRAFICO*/
+
+	.diseñog{
+		display: none;
+	}
+
+
+	.dsñ-secciones{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		margin-bottom: 15%;
+		float: left;
+		clear: fixed;
+	}
+
+	.galeria{
+		width: 60%;
+		height: auto;
+		margin: auto;
+		margin-top: 5%;
+		display: flex;
+		flex: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_cartel{
+		display: none;
+	}
+
+	.contenedor_cartel{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_cartel div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_cartel div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_logo{
+		display: none;
+	}
+
+	.contenedor_logo{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_logo div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_logo div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_forland{
+		display: none;
+	}
+
+	.contenedor_forland{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_forland div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_forland div img{
+		width: 100%;
+		height: auto;
+	}
+	/* FIN DISEÑO GRAFICO*/
+
+
+	/* DIBUJO E ILUSTRACION */
+	
+	.dibujo{
+		display: none;
+	}
+
+	.dib-secciones{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		margin-bottom: 15%;
+		float: left;
+		clear: fixed;
+	}
+
+
+	.img_ilust{
+		display: none;
+	}
+
+	.contenedor_ilust{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_ilust div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_ilust div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_retrato{
+		display: none;
+	}
+
+	.contenedor_retrato{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_retrato div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_retrato div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_danzando{
+		display: none;
+	}
+
+	.contenedor_danzando{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_danzando div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_danzando div img{
+		width: 100%;
+		height: auto;
+	}
+	
+	/* FIN DIBUJO E ILUSTRACION*/
+
+
+	/* FOTOGRAFIA */
+
+	.foto{
+		display: none;
+	}
+
+	.foto-secciones{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		margin-bottom: 15%;
+		float: left;
+		clear: fixed;
+	}
+
+
+	.img_bodypaint{
+		display: none;
+	}
+
+	.contenedor_bodypaint{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_bodypaint div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_bodypaint div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_beauty{
+		display: none;
+	}
+
+	.contenedor_beauty{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_beauty div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_beauty div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_moda{
+		display: none;
+	}
+
+	.contenedor_moda{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_moda div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_moda div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_publi{
+		display: none;
+	}
+
+	.contenedor_publi{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_publi div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_publi div img{
+		width: 100%;
+		height: auto;
+	}
+
+	.img_personal{
+		display: none;
+	}
+
+	.contenedor_personal{
+		width: 100%;
+		height: auto;
+	}
+
+	.contenedor_personal div{
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.contenedor_personal div img{
+		width: 100%;
+		height: auto;
+	}
+
+	/* FIN FOTOGRAFIA*/
+
+
+	/* MULTIMEDIA */
+
+	.multimedia{
+		display: none;
+	}
+
+	.multi-secciones{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		margin-bottom: 15%;
+		float: left;
+		clear: fixed;
+	}
+
+	.video{
+		width: 80%;
+		height: auto;
+		margin: auto;
+	}
+
+	.video iframe{
+		width: 100%;
+		height: auto;
+	}
+
+	.descripcion{
+		width: 90%;
+		height: auto;
+		margin: auto;
+		margin-top: 3%;
+		padding: 3%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.descripcion p{
+		text-align: center;
+		font-size: 3vw;
+	}
+	/* FIN MULTIMEDIA */
+
+
+	
+	/* SOBRE MI */
+
+	.sobremi{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		margin-bottom: 15%;
+		float: left;
+		clear: fixed;
+	}
+
+	.sobremi h3{
+		color: salmon;
+		margin: 2%;
+		font-size: 6vW;
+	}
+
+	.mihistoria{
+		width: 80%;
+		height: auto;
+		margin: auto;
+	}
+
+	.mihistoria img{
+		width: 70%;
+		height: auto;
+		margin: 10%;
+	}
+
+	.mihistoria p{
+		margin-bottom: 3%;
+	}
+
+	.curriculum{
+		width: 24%;
+		height: auto;
+		float: left;
+		clear: fixed;
+		padding: 2%
+		margin-top: 5%;
+		margin-left: 40%;
+		background: salmon;
+	}
+
+	/* FIN SOBRE MI */
+
+
+	/* CONTACTO */
+
+	.contacto{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+		margin-bottom: 15%;
+		float: left;
+		clear: fixed;
+	}
+
+	.contacto h3{
+		color: salmon;
+		margin: 5%;
+	}
+
+	article{
+		width: 80%;
+		height: auto;
+		margin: auto;
+	}
+
+	.formulario{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+
+	#nombre, #apellidos, #mail{
+		width: 100%;
+		padding: 1%;
+		margin-top: 2%;
+    	margin-bottom: 5%;
+    	box-sizing: border-box;
+	}
+
+	input{
+		outline-color: lightgrey;
+	}
+
+	input[type=text]:focus {
+    	background-color: salmon;
+	}
+
+	#comentario{
+		width: 100%;
+		padding: 1%;
+    	margin-top: 2%;
+    	box-sizing: border-box;		
+		resize: none;
+	}
+
+	#comentario:focus{
+		background-color: salmon;
+	}
+
+	input[type=submit]{
+		padding: 1%;
+		margin-right: 2%;
+		margin-top: 5%;
+		background-color: salmon;
+		color: white;
+	}
+
+	input[type=reset]{
+		padding: 1%;
+		margin-top: 5%;
+		background-color: salmon;
+		color: white;
+	}
+
+
+	.comentarios{
+		width: 100%;
+		height: auto;
+		margin-top: 5%;
+	}
+
+
+	.cuentas{
+		width: 80%;
+		height: auto;
+		float: left;
+		clear: fixed;
+		margin-left: 10%;
+		margin-top: 15%;		
+	}
+
+	.cuentas div{
+		margin: 3%;
+	}
+
+	.cuentas div p{
+		color: gray;
+	}
+
+	.cuentas div p img{
+		margin-right: 5%;
+	}
+	
+
+	/* FIN CONTACTO */
+
+}
+/*FIN RESPONSIVE MOVIL Y TABLET*/
+
+
+
+/* RESPONSIVE PARA ORDENADORES*/
+
+@media screen and (min-width: 992px){
+
+	body, html{
+		width: 100%;
+		height: 100%;
+		min-width: 1310px;
+	}
+
+	body{
+		min-width: 1310px;
+	}
+
+	header{
+		width: 100%;
+		position: absolute;
+		min-width: 1310px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		background-color: rgba(256, 256, 256, 0.7);
+	}
+
+
+
+	.m-abrir{
+		position: absolute;
+		display: none;
+	}
+
+	.m-cerrar{
+		position: absolute;
+		display: none;
+	}
+
+	.logo{
+		width: 20%;
+		height: auto;
+		margin: 2%;
+	}
+
+	.logo img{
+		width: 100%;
+		height: auto;
+	}
+
+	footer{
+		width: 100%;
+		height: auto;
+		position: relative;
+		bottom: 0px;
+		left: 0px;
+		min-width: 1310px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 1%;
+		background: rgba(230, 229, 230, 0.7);
+	}
+
+
+	/* PAGINA DE INICIO */
+
+	.fondo_inicio{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex: wrap;
+		justify-content: center;
+		align-items: center;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/f-i.jpg');
+	}
+
+	.fondo_inicio div{
+		display: none;
+	}
+
+	@keyframes titulo_inicio{
+		0%{opacity: 0; filter: Alpha (opacity=0);}
+		100%{opacity: 0.9; filter: Alpha (opacity=90);}
+	}
+
+	.fondo_inicio h1{
+		animation-name: titulo_inicio;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	/* FIN PAGINA DE INICIO */
+
+
+	/* BOTONES FLECHA ARRIBA*/
+	.arriba1{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		bottom: -98%;
+		right: 2%;
+	}
+
+	.arriba2{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		bottom: -198%;
+		right: 2%;
+	}
+
+	.arriba3{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		bottom: -298%;
+		right: 2%;
+	}
+
+	.arriba4{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		bottom: -398%;
+		right: 2%;
+	}
+
+	.arriba5{
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		bottom: -498%;
+		right: 2%;
+	}
+	/*FIN BOTONES FLECHA ARRIBA */
+	
+	
+	/* DISEÑO GRAFICO */
+
+	.diseñog{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		background: white;
+	}
+
+	.diseñog div{
+		width: 33%;
+		height: 100%;
+		padding: 2%;
+		display: flex;
+		flex: wrap;
+		justify-content: flex-start;
+		align-items: flex-end;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	@keyframes seccion-a{
+		0% {transform: translate(0px, -100%);}
+		100% {transform: translate(0px, 0%;);}
+	}
+
+	.diseño1{		
+		background: url('../img/fondo-carteleria.jpg');
+		animation-name: seccion-a;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	@keyframes seccion-b{
+		0% {transform: translate(0px, -100%);}
+		20% {transform: translate(0px, -100%);}
+		100% {transform: translate(0px, 0%;);}
+	}
+
+		
+	.diseño2{
+		background: url('../img/fondo-logotipos.jpg');
+		animation-name: seccion-b;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	@keyframes seccion-c{
+		0% {transform: translate(0px, -100%);}
+		40% {transform: translate(0px, -100%);}
+		100% {transform: translate(0px, 0%;);}
+	}
+
+	.diseño3{
+		background: url('../img/fondo-forland.jpg');
+		animation-name: seccion-c;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	.dsñ-secciones{
+		width: 100%;
+		height: 100%;
+	}
+
+	.galeria{
+		width: 60%;
+		height: auto;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/*GALERIA CARTELERIA */
+
+	.img_cartel{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_cartel div{
+		width: 298px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/cartel3.jpg');
+	}
+
+	.contenedor_cartel{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contenedor_cartel div{
+		width: 10%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_cartel div img{
+		display: none;
+	}
+
+	.cartel1{
+		background: url('../img/cartel1.jpg');
+	}
+
+	.cartel2{
+		background: url('../img/cartel2.jpg');
+	}
+
+	.cartel3{
+		background: url('../img/cartel3.jpg');
+	}
+
+	.cartel4{
+		background: url('../img/cartel4.jpg');
+	}
+
+	.cartel5{
+		background: url('../img/cartel5.jpg');
+	}
+
+	.cartel6{
+		background: url('../img/cartel6.jpg');
+	}
+	/* FIN GALERÍA CARTELERIA*/
+
+
+	/* GALERIA LOGOTIPOS */
+
+	.img_logo{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_logo div{
+		width: 597px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/logo1.jpg');
+	}
+
+	.contenedor_logo{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contenedor_logo div{
+		width: 15%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_logo div img{
+		display: none;
+	}
+
+	.logo1{
+		background: url('../img/logo1.jpg');
+	}
+
+	.logo2{
+		background: url('../img/logo2.jpg');
+	}
+	/* FIN GALERIA LOGOTIPOS*/
+
+
+	/*GALERIA FORLAND */
+
+	.img_forland{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_forland div{
+		width: 597px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/forland1.jpg');
+	}
+
+	.contenedor_forland{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contenedor_forland div{
+		width: 10%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_forland div img{
+		display: none;
+	}
+
+	.forland1{
+		background: url('../img/forland1.jpg');
+	}
+
+	.forland2{
+		background: url('../img/forland2.jpg');
+	}
+
+	.forland3{
+		background: url('../img/forland3.jpg');
+	}
+
+	.forland4{
+		background: url('../img/forland4.jpg');
+	}
+
+	.forland5{
+		background: url('../img/forland5.jpg');
+	}
+
+	.forland6{
+		background: url('../img/forland6.jpg');
+	}
+
+	.forland7{
+		background: url('../img/forland7.jpg');
+	}
+	/*FIN GALERIA FORLAND*/
+
+	/* FIN DISEÑO GRÁFICO */
+
+
+	/* DIBUJO E ILUSTRACION */
+
+	.dibujo{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.dibujo div{
+		width: 33%;
+		height: 100%;
+		padding: 2%;
+		display: flex;
+		flex: wrap;
+		justify-content: flex-start;
+		align-items: flex-end;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+
+	.dibujo1{		
+		background: url('../img/fondo-ilustracion.jpg');
+		animation-name: seccion-a;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	.dibujo2{
+		background: url('../img/fondo-retratos.jpg');
+		animation-name: seccion-b;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	.dibujo3{
+		background: url('../img/fondo-danzando.jpg');
+		animation-name: seccion-c;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	.dib-secciones{
+		width: 100%;
+		height: 100%;
+	}
+
+
+	/* ILUSTRACIONES GALERIA */
+	
+	.img_ilust{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_ilust div{
+		width: 597px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/ilustracion1.jpg');
+
+	}
+
+	.contenedor_ilust{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contenedor_ilust div{
+		width: 8%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_ilust div img{
+		display: none;
+	}
+
+	.ilust1{
+		background: url('../img/ilustracion1.jpg');
+	}
+
+	.ilust2{
+		background: url('../img/ilustracion2.jpg');
+	}
+
+	.ilust3{
+		background: url('../img/ilustracion3.jpg');
+	}
+
+	.ilust4{
+		background: url('../img/ilustracion4.jpg');
+	}
+
+	.ilust5{
+		background: url('../img/ilustracion5.jpg');
+	}
+
+	.ilust6{
+		background: url('../img/ilustracion6.jpg');
+	}
+
+	.ilust7{
+		background: url('../img/ilustracion7.jpg');
+	}
+
+	.ilust8{
+		background: url('../img/ilustracion8.jpg');
+	}
+
+	.ilust9{
+		background: url('../img/ilustracion9.jpg');
+	}
+
+	.ilust10{
+		background: url('../img/ilustracion10.jpg');
+	}
+
+	/*FIN ILUSTRACION GALERIA*/
+
+
+	/* GALERIA RETRATOS*/
+
+	.img_retrato{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_retrato div{
+		width: 298px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/retrato1.jpg');
+	}
+
+	.contenedor_retrato{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contenedor_retrato div{
+		width: 15%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_retrato div img{
+		display: none;
+	}
+
+	.retrato1{
+		background: url('../img/retrato1.jpg');
+	}
+
+	.retrato2{
+		background: url('../img/retrato2.jpg');
+	}
+
+	.retrato3{
+		background: url('../img/retrato3.jpg');
+	}
+
+	.retrato4{
+		background: url('../img/retrato4.jpg');
+	}
+
+	.retrato5{
+		background: url('../img/retrato5.jpg');
+	}
+	/* FIN GALERIA RETRATOS*/
+
+
+	/* GALERIA DANZANDO CON LA TRADICION */
+
+	.img_danzando{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_danzando div{
+		width: 597px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/danzando1.jpg');
+	}
+
+	.contenedor_danzando{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contenedor_danzando div{
+		width: 15%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_danzando div img{
+		display: none;
+	}
+
+	.danzando1{
+		background: url('../img/danzando1.jpg');
+	}
+
+	.danzando2{
+		background: url('../img/danzando2.jpg');
+	}
+
+	.danzando3{
+		background: url('../img/danzando3.jpg');
+	}
+
+	.danzando4{
+		background: url('../img/danzando4.jpg');
+	}
+
+	.danzando5{
+		background: url('../img/danzando5.jpg');
+	}
+
+	.danzando6{
+		background: url('../img/danzando6.jpg');
+	}
+
+	/* FIN GALERIA DANZANDO CON LA TRADICION*/
+
+	/* FIN DIBUJO E ILUSTRACION*/
+
+
+
+	/* FOTOGRAFIA*/
+
+	.foto{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.foto div{
+		width: 20%;
+		height: 100%;
+		padding: 2%;
+		display: flex;
+		flex: wrap;
+		justify-content: flex-start;
+		align-items: flex-end;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	@keyframes seccion-d{
+		0% {transform: translate(0px, -100%);}
+		60% {transform: translate(0px, -100%);}
+		100% {transform: translate(0px, 0%;);}
+	}
+
+	@keyframes seccion-e{
+		0% {transform: translate(0px, -100%);}
+		80% {transform: translate(0px, -100%);}
+		100% {transform: translate(0px, 0%;);}
+	}
+
+	.foto1{		
+		background: url('../img/fondo-bodypaint.jpg');
+		animation-name: seccion-a;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+
+	.foto2{
+		background: url('../img/fondo-beauty.jpg');
+		animation-name: seccion-b;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+
+	.foto3{
+		background: url('../img/fondo-moda.jpg');
+		animation-name: seccion-c;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+
+	.foto4{
+		background: url('../img/fondo-publi.jpg');
+		animation-name: seccion-d;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+
+	.foto5{
+		background: url('../img/fondo-personal.jpg');
+		animation-name: seccion-e;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	.foto-secciones{
+		width: 100%;
+		height: 100%;
+	}
+
+	/* GLAERIA BODYPAINT*/
+
+	.img_bodypaint{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_bodypaint div{
+		width: 298px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/bodypaint1.jpg');
+	}
+
+	.contenedor_bodypaint{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contenedor_bodypaint div{
+		width: 15%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_bodypaint div img{
+		display: none;
+	}
+
+	.body1{
+		background: url('../img/bodypaint1.jpg');
+	}
+
+	.body2{
+		background: url('../img/bodypaint2.jpg');
+	}
+
+	.body3{
+		background: url('../img/bodypaint3.jpg');
+	}
+
+	.body4{
+		background: url('../img/bodypaint4.jpg');
+	}
+
+	.body5{
+		background: url('../img/bodypaint5.jpg');
+	}
+
+	.body6{
+		background: url('../img/bodypaint6.jpg');
+	}
+	/* FIN GALERIA BODYPAINT*/
+
+
+	/* GALERIA BEAUTY*/
+
+	.img_beauty{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_beauty div{
+		width: 597px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/beauty1.jpg');
+	}
+
+	.contenedor_beauty{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contenedor_beauty div{
+		width: 10%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_beauty div img{
+		display: none;
+	}
+
+	.beauty1{
+		background: url('../img/beauty1.jpg');
+	}
+
+	.beauty2{
+		background: url('../img/beauty2.jpg');
+	}
+	/* FIN GALERIA BEAUTY*/
+
+
+	/* GALERIA MODA */
+
+	.img_moda{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_moda div{
+		width: 298px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/moda1.jpg');
+	}
+
+	.contenedor_moda{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contenedor_moda div{
+		width: 15%;
+		height: 50px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_moda div img{
+		display: none;
+	}
+
+	.moda1{
+		background: url('../img/moda1.jpg');
+	}
+
+	.moda2{
+		background: url('../img/moda2.jpg');
+	}
+
+	.moda3{
+		background: url('../img/moda3.jpg');
+	}
+
+	.moda4{
+		background: url('../img/moda4.jpg');
+	}
+
+	.moda5{
+		background: url('../img/moda5.jpg');
+	}
+
+	.moda6{
+		background: url('../img/moda6.jpg');
+	}
+
+
+	/* FIN GALERIA MODA */
+
+
+	/* GALERIA PUBLICIDAD*/
+
+	.img_publi{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_publi div{
+		width: 298px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/publi1.jpg');
+	}
+
+	.contenedor_publi{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contenedor_publi div{
+		width: 15%;
+		height: 50px;
+		margin-right: 1%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_publi div img{
+		display: none;
+	}
+
+	.publi1{
+		background: url('../img/publi1.jpg');
+	}
+
+	.publi2{
+		background: url('../img/publi2.jpg');
+	}
+
+	.publi3{
+		background: url('../img/publi3.jpg');
+	}
+	/* FIN GALERIA PUBLICIDAD*/
+
+
+	/* GALERIA PERSONAL FOTO*/
+
+	.img_personal{
+		width: 96%;
+		height: 422px;
+		margin: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img_personal div{
+		width: 597px;
+		height: 422px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background: url('../img/personal1.jpg');
+	}
+
+	.contenedor_personal{
+		width: 96%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contenedor_personal div{
+		width: 5%;
+		height: 30px;
+		margin-right: 1%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
+
+	.contenedor_personal div img{
+		display: none;
+	}
+
+	.personal1{
+		background: url('../img/personal1.jpg');
+	}
+
+	.personal2{
+		background: url('../img/personal2.jpg');
+	}
+
+	.personal3{
+		background: url('../img/personal3.jpg');
+	}
+
+	.personal4{
+		background: url('../img/personal4.jpg');
+	}
+
+	.personal5{
+		background: url('../img/personal5.jpg');
+	}
+
+	.personal6{
+		background: url('../img/personal6.jpg');
+	}
+
+	.personal7{
+		background: url('../img/personal7.jpg');
+	}
+
+	.personal9{
+		background: url('../img/personal9.jpg');
+	}
+
+	.personal10{
+		background: url('../img/personal10.jpg');
+	}
+
+	.personal11{
+		background: url('../img/personal11.jpg');
+	}
+
+	.personal12{
+		background: url('../img/personal12.jpg');
+	}
+
+	.personal13{
+		background: url('../img/personal13.jpg');
+	}
+
+	.personal14{
+		background: url('../img/personal14.jpg');
+	}
+
+	.personal15{
+		background: url('../img/personal15.jpg');
+	}
+
+	.personal16{
+		background: url('../img/personal16.jpg');
+	}
+	/* FIN GALERIA PERSONAL FOTO*/
+
+	/* FIN FOTOGRAFIA */
+
+
+
+	/* MULTIMEDIA*/
+
+	.multimedia{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.multimedia div{
+		width: 25%;
+		height: 100%;
+		padding: 2%;
+		display: flex;
+		flex: wrap;
+		justify-content: flex-start;
+		align-items: flex-end;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.multimedia1{		
+		background: url('../img/fondo-isa.jpg');
+		animation-name: seccion-a;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+
+	.multimedia2{
+		background: url('../img/fondo-bellosartos.jpg');
+		animation-name: seccion-b;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+
+	.multimedia3{
+		background: url('../img/fondo-stopmotion.jpg');
+		animation-name: seccion-c;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	.multimedia4{
+		background: url('../img/fondo-trailer.jpg');
+		animation-name: seccion-d;
+		animation-duration: 2s;
+		animation-itaration-count: 1;
+	}
+
+	.multi-secciones{
+		width: 100%;
+		height: 100%;
+	}
+
+	.video{
+		width: 70%;
+		height: auto;
+		margin: auto;
+		padding: 1%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.descripcion{
+		width: 50%;
+		height: auto;
+		margin: auto;
+		margin-top: 1%;
+		padding: 2%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.descripcion p{
+		text-align: center;
+	}
+
+	/* FIN MULTIMEDIA */
+
+
+
+	/* SOBRE MI */
+
+	.sobremi{
+		width: 100%;
+		height: 100%;
+	}
+
+	@keyframes quien-es{
+		0% {transform: translate(0%, -100%);}
+		100% {transform: translate(0%, 0%);}
+	}
+
+	.sobremi h3{
+		padding-top: 8%;
+		color: salmon;
+		animation-name: quien-es;
+		animation-duration: 2s;
+		animation-itaration-count: 3;
+	}
+
+	.mihistoria{
+		width: 70%;
+		height: auto;
+		margin: auto;
+		padding: 2%;
+	}
+
+	.mihistoria p{
+		padding-top: 1%;
+	}
+
+	.mihistoria img{
+		width: 25%;
+		height: auto;
+		float: right;
+		margin-left: 2%;
+	}
+
+	@keyframes curriculum{
+		0% {transform: translate(0%, 200%);}
+		50% {transform: translate(0%, 200%);}
+		100% {transform: translate(0%, 0%);}
+	}
+
+	.curriculum{
+		width: 9%;
+		height: auto;
+		position: absolute;
+		bottom: 5%;
+		right: 2%;
+		display: block;
+		padding: 1%;
+		background: salmon;
+		animation-name: curriculum;
+		animation-duration: 3s;
+		animation-itaration-count: 2;
+	}
+
+	/* FIN SOBRE MI */
+
+
+	/* CONTACTO */
+
+	.contacto{
+		width: 100%;
+		height: 100%;
+	}
+
+	.contacto h3{
+		padding-top: 8%;
+		color: salmon;
+		animation-name: quien-es;
+		animation-duration: 2s;
+		animation-itaration-count: 3;
+	}
+
+	.contacto article{
+		width: 80%;
+		height: auto;
+		margin: auto;
+		display: flex;
+		flex: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.contacto article div{
+		margin-bottom: 3%;
+	}
+
+	.formulario{
+		width: 60%;
+		height: auto;
+	}
+
+
+	#nombre, #apellidos, #mail{
+		width: 100%;
+		padding: 1%;
+    	margin: 1%;
+    	box-sizing: border-box;
+	}
+
+	input{
+		outline-color: lightgrey;
+	}
+
+	input[type=text]:focus {
+    	background-color: salmon;
+	}
+
+	#comentario{
+		width: 100%;
+		padding: 1%;
+    	margin: 1%;
+    	box-sizing: border-box;
+		resize: none;
+	}
+
+	#comentario:focus{
+		background-color: salmon;
+	}
+
+	input[type=submit]{
+		padding: 1%;
+		margin-right: 2%;
+		background-color: salmon;
+		color: white;
+		border-radius: 0px;
+		cursor: pointer;
+	}
+
+	input[type=reset]{
+		padding: 1%;
+		background-color: salmon;
+		color: white;
+		border-radius: 0px;
+		cursor: pointer;
+	}
+
+	.comentarios{
+		width: 100%;
+		height: auto;
+		margin-top: 2%;
+	}
+
+	@keyframes cuentas{
+		0%{opacity: 0; filter: Alpha (opacity=0);}
+		50%{opacity: 0; filter: Alpha (opacity=0);}
+		100%{opacity: 1; filter: Alpha (opacity=100);}
+	}
+
+	.cuentas{
+		width: 28%;
+		height: auto;
+		animation-name: cuentas;
+		animation-duration: 3s;
+		animation-itaration-count: 3;
+	}
+
+	.cuentas div{
+		margin: 8%;
+	}
+
+	.cuentas div p{
+		color: gray;
+	}
+
+	.cuentas div p img{
+		margin-right: 8%;
+	}
+	/* FIN CONTACTO*/
+
+}
+/* FIN RESPONSIVE ORDENADORES */

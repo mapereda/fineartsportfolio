@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/estructura.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/fuentes.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			$(".oscuro").css("background-color", "rgba(225, 225, 225, .3)");
+
+			$(".m-abrir").click(function(){
+
+				$("nav").css("display", "block");
+
+				$(".m-abrir").css("display", "none");
+
+				$(".m-cerrar").css("display", "block");
+
+			});
+
+			$(".m-cerrar").click(function(){
+
+				$("nav").css("display", "none");
+
+				$(".m-cerrar").css("display", "none");
+
+				$(".m-abrir").css("display", "block");
+
+			});
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+			  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			    var target = $(this.hash);
+			    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			    if (target.length) {
+			      $('html, body').animate({
+			        scrollTop: target.offset().top
+			      }, 700);
+			      return false;
+			    }
+			  }
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+		
+	<header class="oscuro">
+
+		<div class="logo">
+			<img src="../img/logo.png">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio              </a></li>
+				<li><a href="diseñografico.html">Diseño Gráfico </a></li>
+				<li><a href="dibujo.html">Dibujo e Ilustración  </a></li>
+				<li><a href="fotografia.html">Fotografía        </a></li>
+				<li><a href="multimedia.html">Multimedia        </a></li>
+				<li><a href="sobremi.html">Sobre mí             </a></li>
+				<li><a href="#">Contacto                        </a></li>
+			</ul>
+		</nav>
+
+		<div class="m-abrir">
+			<img src="../img/menu.png">
+		</div>
+
+		<div class="m-cerrar">
+			<img src="../img/menu.png">
+		</div>
+	</header>
+	
+	<section class="contacto">
+
+		<h3>Contacto</h3>
+
+		<article>
+			<div class="formulario">
+				<form action="../php/mail.php" method="post">
+
+					<div><label for="nombre">Nombre<input type="text" name="nombre" id="nombre" required></label></div>
+
+					<div><label for="apellidos">Apellidos<input type="text" name="apellidos" id="apellidos" required></label></div>
+					
+					<div><label for="mail">E-mail<input type="text" name="mail" id="mail" required></label></div>
+
+				
+
+					<div class="comentarios">
+						<label for="comentario">Comentarios</label><br />
+						<textarea name="comentario" id="comentario"></textarea>
+					</div>
+
+					<input type="submit" value="ENVIAR"/>
+			
+					<input type="reset" value="BORRAR" />
+				</form>
+			</div>
+
+			<div class="cuentas">
+				<div>
+					<p><img src="../img/gmail.png">mariapereda.e@gmail.com</p>
+				</div>
+
+				<div>
+					<a href="https://www.youtube.com/user/milyval" target="_blanck">
+						<p><img src="../img/youtube.png">milyval</p>
+					</a>
+				</div>
+
+			</div>
+		</article>
+	</section>
+
+	<footer>
+		<p>Creado por María Pereda</p>
+		<div class="iconos">
+			<a href="https://www.youtube.com/user/milyval" target="_blanck"><img src="../img/youtube.png"></a>
+		</div>		
+	</footer>	
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/estructura.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/fuentes.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			~$(".m-abrir").click(function(){
+
+				$("nav").css("display", "block");
+
+				$(".m-abrir").css("display", "none");
+
+				$(".m-cerrar").css("display", "block");
+
+			});
+
+			~$(".m-cerrar").click(function(){
+
+				$("nav").css("display", "none");
+
+				$(".m-cerrar").css("display", "none");
+
+				$(".m-abrir").css("display", "block");
+
+			});
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+			  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			    var target = $(this.hash);
+			    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			    if (target.length) {
+			      $('html, body').animate({
+			        scrollTop: target.offset().top
+			      }, 700);
+			      return false;
+			    }
+			  }
+			});
+
+			$(".ilust1").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion1.jpg)");
+			});
+
+			$(".ilust2").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion2.jpg)");
+			});
+
+			$(".ilust3").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion3.jpg)");
+			});
+
+			$(".ilust4").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion4.jpg)");
+			});
+
+			$(".ilust5").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion5.jpg)");
+			});
+
+			$(".ilust6").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion6.jpg)");
+			});
+
+			$(".ilust7").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion7.jpg)");
+			});
+
+			$(".ilust8").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion8.jpg)");
+			});
+
+			$(".ilust9").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion9.jpg)");
+			});
+
+			$(".ilust10").click(function(){
+				$(".ilust-fondo").css("background-image", "url(../img/ilustracion10.jpg)");
+			});
+
+			$(".retrato1").click(function(){
+				$(".retrato-fondo").css("background-image", "url(../img/retrato1.jpg)");
+			});
+
+			$(".retrato2").click(function(){
+				$(".retrato-fondo").css("background-image", "url(../img/retrato2.jpg)");
+			});
+
+
+			$(".retrato3").click(function(){
+				$(".retrato-fondo").css("background-image", "url(../img/retrato3.jpg)");
+			});
+
+
+			$(".retrato4").click(function(){
+				$(".retrato-fondo").css("background-image", "url(../img/retrato4.jpg)");
+			});
+
+			$(".retrato5").click(function(){
+				$(".retrato-fondo").css("background-image", "url(../img/retrato5.jpg)");
+			});
+
+			$(".danzando1").click(function(){
+				$(".danzando-fondo").css("background-image", "url(../img/danzando1.jpg)");
+			});
+
+			$(".danzando2").click(function(){
+				$(".danzando-fondo").css("background-image", "url(../img/danzando2.jpg)");
+			});
+
+			$(".danzando3").click(function(){
+				$(".danzando-fondo").css("background-image", "url(../img/danzando3.jpg)");
+			});
+
+			$(".danzando4").click(function(){
+				$(".danzando-fondo").css("background-image", "url(../img/danzando4.jpg)");
+			});
+
+			$(".danzando5").click(function(){
+				$(".danzando-fondo").css("background-image", "url(../img/danzando5.jpg)");
+			});
+
+			$(".danzando6").click(function(){
+				$(".danzando-fondo").css("background-image", "url(../img/danzando6.jpg)");
+			});
+
+
+		});
+
+	</script>
+</head>
+<body>
+		
+	<header>
+
+		<div class="logo">
+			<img src="../img/logo.png">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio              </a></li>
+				<li><a href="diseñografico.html">Diseño Gráfico </a></li>
+				<li><a href="#">Dibujo e Ilustración            </a></li>
+				<li><a href="fotografia.html">Fotografía        </a></li>
+				<li><a href="multimedia.html">Multimedia        </a></li>
+				<li><a href="sobremi.html">Sobre mí             </a></li>
+				<li><a href="contacto.html">Contacto            </a></li>
+			</ul>
+		</nav>
+
+		<div class="m-abrir">
+			<img src="../img/menu.png">
+		</div>
+
+		<div class="m-cerrar">
+			<img src="../img/menu.png">
+		</div>
+	</header>
+	
+	<a name="arriba"></a>
+	<section class="dibujo">		
+		<div class="dibujo1">
+			<a href="#ilustracion"><h2>Ilustración</h2></a>
+		</div>
+		<div class="dibujo2">
+			<a href="#retratos"><h2>Retratos</h2></a>
+		</div>
+		<div class="dibujo3">
+			<a href="#danzando"><h2>Danzando con la Tradición</h2></a>
+		</div>
+	</section>
+
+	<a name="ilustracion"></a>
+	<section class="dib-secciones">
+
+		<h3>Ilustración</h3>
+
+		<!-- ILUSTRACION GALERIA  -->
+		<div class="galeria">
+
+			 <div class="img_ilust">
+			 	<div class="ilust-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_ilust">
+			 	<div class="ilust1">
+			 		<img src="../img/ilustracion1.jpg" alt="">
+			 	</div>
+			 	<div class="ilust2">
+			 		<img src="../img/ilustracion2.jpg" alt="">
+			 	</div>
+			 	<div class="ilust3">
+			 		<img src="../img/ilustracion3.jpg" alt="">
+			 	</div>
+			 	<div class="ilust4">
+			 		<img src="../img/ilustracion4-r.jpg" alt="">
+			 	</div>
+			 	<div class="ilust5">
+			 		<img src="../img/ilustracion5-r.jpg" alt="">
+			 	</div>
+			 	<div class="ilust6">
+			 		<img src="../img/ilustracion6-r.jpg" alt="">
+			 	</div>
+			 	<div class="ilust7">
+			 		<img src="../img/ilustracion7-r.jpg" alt="">
+			 	</div>
+			 	<div class="ilust8">
+			 		<img src="../img/ilustracion8-r.jpg" alt="">
+			 	</div>
+			 	<div class="ilust9">
+			 		<img src="../img/ilustracion9-r.jpg" alt="">
+			 	</div>
+			 	<div class="ilust10">
+			 		<img src="../img/ilustracion10-r.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+		<div class="arriba1">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="retratos"></a>
+	<section class="dib-secciones">
+
+		<h3>Retratos</h3>
+
+		<!-- RETRATOS GALERIA  -->
+		<div class="galeria">
+
+			 <div class="img_retrato">
+			 	<div class="retrato-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_retrato">
+			 	<div class="retrato1">
+			 		<img src="../img/retrato1.jpg" alt="">
+			 	</div>
+			 	<div class="retrato2">
+			 		<img src="../img/retrato2.jpg" alt="">
+			 	</div>
+			 	<div class="retrato3">
+			 		<img src="../img/retrato3.jpg" alt="">
+			 	</div>
+			 	<div class="retrato4">
+			 		<img src="../img/retrato4.jpg" alt="">
+			 	</div>
+			 	<div class="retrato5">
+			 		<img src="../img/retrato5.jpg" alt="">
+			 	</div>
+			 </div>
+		<div class="arriba2">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="danzando"></a>
+	<section class="dib-secciones">
+
+		<h3>Danzando con la Tradición</h3>
+
+		<!-- DANZANDO CON LA TRADICION GALERIA  -->
+		<div class="galeria">
+
+			 <div class="img_danzando">
+			 	<div class="danzando-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_danzando">
+			 	<div class="danzando1">
+			 		<img src="../img/danzando1.jpg" alt="">
+			 	</div>
+			 	<div class="danzando2">
+			 		<img src="../img/danzando2.jpg" alt="">
+			 	</div>
+			 	<div class="danzando3">
+			 		<img src="../img/danzando3.jpg" alt="">
+			 	</div>
+			 	<div class="danzando4">
+			 		<img src="../img/danzando4.jpg" alt="">
+			 	</div>
+			 	<div class="danzando5">
+			 		<img src="../img/danzando5.jpg" alt="">
+			 	</div>
+			 	<div class="danzando6">
+			 		<img src="../img/danzando6.jpg" alt="">
+			 	</div>
+			 </div>
+		<div class="arriba3">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<footer>
+		<p>Creado por María Pereda</p>
+		<div class="iconos">
+			<a href="https://www.youtube.com/user/milyval" target="_blanck"><img src="../img/youtube.png"></a>
+		</div>		
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/estructura.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/fuentes.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			~$(".m-abrir").click(function(){
+
+				$("nav").css("display", "block");
+
+				$(".m-abrir").css("display", "none");
+
+				$(".m-cerrar").css("display", "block");
+
+			});
+
+			~$(".m-cerrar").click(function(){
+
+				$("nav").css("display", "none");
+
+				$(".m-cerrar").css("display", "none");
+
+				$(".m-abrir").css("display", "block");
+
+			});
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+			  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			    var target = $(this.hash);
+			    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			    if (target.length) {
+			      $('html, body').animate({
+			        scrollTop: target.offset().top
+			      }, 700);
+			      return false;
+			    }
+			  }
+			});
+
+			$(".body1").click(function(){
+				$(".bodypaint-fondo").css("background-image", "url(../img/bodypaint1.jpg)");
+			});
+
+			$(".body2").click(function(){
+				$(".bodypaint-fondo").css("background-image", "url(../img/bodypaint2.jpg)");
+			});
+
+			$(".body3").click(function(){
+				$(".bodypaint-fondo").css("background-image", "url(../img/bodypaint3.jpg)");
+			});
+
+			$(".body4").click(function(){
+				$(".bodypaint-fondo").css("background-image", "url(../img/bodypaint4.jpg)");
+			});
+
+			$(".body5").click(function(){
+				$(".bodypaint-fondo").css("background-image", "url(../img/bodypaint5.jpg)");
+			});
+
+			$(".body6").click(function(){
+				$(".bodypaint-fondo").css("background-image", "url(../img/bodypaint6.jpg)");
+			});
+
+			$(".beauty1").click(function(){
+				$(".beauty-fondo").css("background-image", "url(../img/beauty1.jpg)");
+			});
+
+			$(".beauty2").click(function(){
+				$(".beauty-fondo").css("background-image", "url(../img/beauty2.jpg)");
+			});
+
+			$(".moda1").click(function(){
+				$(".moda-fondo").css("background-image", "url(../img/moda1.jpg)");
+			});
+
+			$(".moda2").click(function(){
+				$(".moda-fondo").css("background-image", "url(../img/moda2.jpg)");
+			});
+
+			$(".moda3").click(function(){
+				$(".moda-fondo").css("background-image", "url(../img/moda3.jpg)");
+			});
+
+			$(".moda4").click(function(){
+				$(".moda-fondo").css("background-image", "url(../img/moda4.jpg)");
+			});
+
+			$(".moda5").click(function(){
+				$(".moda-fondo").css("background-image", "url(../img/moda5.jpg)");
+			});
+
+			$(".moda6").click(function(){
+				$(".moda-fondo").css("background-image", "url(../img/moda6.jpg)");
+			});
+
+			$(".publi1").click(function(){
+				$(".publi-fondo").css("background-image", "url(../img/publi1.jpg)");
+			});
+
+			$(".publi2").click(function(){
+				$(".publi-fondo").css("background-image", "url(../img/publi2.jpg)");
+			});
+
+			$(".publi3").click(function(){
+				$(".publi-fondo").css("background-image", "url(../img/publi3.jpg)");
+			});
+
+			$(".personal1").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal1.jpg)");
+			});
+
+			$(".personal2").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal2.jpg)");
+			});
+
+			$(".personal3").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal3.jpg)");
+			});
+
+			$(".personal4").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal4.jpg)");
+			});
+
+			$(".personal5").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal5.jpg)");
+			});
+
+			$(".personal6").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal6.jpg)");
+			});
+
+			$(".personal7").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal7.jpg)");
+			});
+
+			$(".personal9").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal9.jpg)");
+			});
+
+			$(".personal10").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal10.jpg)");
+			});
+
+			$(".personal11").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal11.jpg)");
+			});
+
+			$(".personal12").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal12.jpg)");
+			});
+
+			$(".personal13").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal13.jpg)");
+			});
+
+			$(".personal14").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal14.jpg)");
+			});
+
+			$(".personal15").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal15.jpg)");
+			});
+
+			$(".personal16").click(function(){
+				$(".personal-fondo").css("background-image", "url(../img/personal16.jpg)");
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+		
+	<header>
+
+		<div class="logo">
+			<img src="../img/logo.png">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio              </a></li>
+				<li><a href="diseñografico.html">Diseño Gráfico </a></li>
+				<li><a href="dibujo.html">Dibujo e Ilustración  </a></li>
+				<li><a href="#">Fotografía                      </a></li>
+				<li><a href="multimedia.html">Multimedia        </a></li>
+				<li><a href="sobremi.html">Sobre mí             </a></li>
+				<li><a href="contacto.html">Contacto            </a></li>
+			</ul>
+		</nav>
+
+		<div class="m-abrir">
+			<img src="../img/menu.png">
+		</div>
+
+		<div class="m-cerrar">
+			<img src="../img/menu.png">
+		</div>
+	</header>
+	
+	<a name="arriba"></a>
+	<section class="foto">		
+		<div class="foto1"><a href="#bodypaint"><h2>Bodypaint</h2></a></div>
+		<div class="foto2"><a href="#beauty"><h2>Beauty</h2></a></div>
+		<div class="foto3"><a href="#moda"><h2>Moda</h2></a></div>
+		<div class="foto4"><a href="#publicidad"><h2>Publicidad</h2></a></div>
+		<div class="foto5"><a href="#personal"><h2>Personal</h2></a></div>
+	</section>
+
+	<a name="bodypaint"></a>
+	<section class="foto-secciones">
+
+		<h3>Bodypaint</h3>
+
+		<!-- CARTELERIA BODYPAINT  -->
+		<div class="galeria">
+
+			 <div class="img_bodypaint">
+			 	<div class="bodypaint-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_bodypaint">
+			 	<div class="body1">
+			 		<img src="../img/bodypaint1.jpg" alt="">
+			 	</div>
+			 	<div class="body2">
+			 		<img src="../img/bodypaint2.jpg" alt="">
+			 	</div>
+			 	<div class="body3">
+			 		<img src="../img/bodypaint3.jpg" alt="">
+			 	</div>
+			 	<div class="body4">
+			 		<img src="../img/bodypaint4.jpg" alt="">
+			 	</div>
+			 	<div class="body5">
+			 		<img src="../img/bodypaint5.jpg" alt="">
+			 	</div>
+			 	<div class="body6">
+			 		<img src="../img/bodypaint6.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+		<div class="arriba1">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="beauty"></a>
+	<section class="foto-secciones">
+
+		<h3>Beauty</h3>
+
+		<!-- CARTELERIA BEAUTY  -->
+		<div class="galeria">
+
+			 <div class="img_beauty">
+			 	<div class="beauty-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_beauty">
+			 	<div class="beauty1">
+			 		<img src="../img/beauty1.jpg" alt="">
+			 	</div>
+			 	<div class="beauty2">
+			 		<img src="../img/beauty2-r.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+		<div class="arriba2">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="moda"></a>
+	<section class="foto-secciones">
+
+		<h3>Moda</h3>
+
+		<!-- CARTELERIA MODA  -->
+		<div class="galeria">
+
+			 <div class="img_moda">
+			 	<div class="moda-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_moda">
+			 	<div class="moda1">
+			 		<img src="../img/moda1.jpg" alt="">
+			 	</div>
+			 	<div class="moda2">
+			 		<img src="../img/moda2.jpg" alt="">
+			 	</div>
+			 	<div class="moda3">
+			 		<img src="../img/moda3.jpg" alt="">
+			 	</div>
+			 	<div class="moda4">
+			 		<img src="../img/moda4.jpg" alt="">
+			 	</div>
+			 	<div class="moda5">
+			 		<img src="../img/moda5.jpg" alt="">
+			 	</div>
+			 	<div class="moda6">
+			 		<img src="../img/moda6.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+		<div class="arriba3">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="publicidad"></a>
+	<section class="foto-secciones">
+
+		<h3>Publicidad</h3>
+
+		<!-- CARTELERIA PUBLICIDAD   -->
+		<div class="galeria">
+
+			 <div class="img_publi">
+			 	<div class="publi-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_publi">
+			 	<div class="publi1">
+			 		<img src="../img/publi1.jpg" alt="">
+			 	</div>
+			 	<div class="publi2">
+			 		<img src="../img/publi2.jpg" alt="">
+			 	</div>
+			 	<div class="publi3">
+			 		<img src="../img/publi3.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+		<div class="arriba4">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<a name="personal"></a>
+	<section class="foto-secciones">
+
+		<h3>Personal</h3>
+
+		<!-- CARTELERIA PERSONAL  -->
+		<div class="galeria">
+
+			 <div class="img_personal">
+			 	<div class="personal-fondo"></div>
+			 </div>
+
+			 <div class="contenedor_personal">
+			 	<div class="personal1">
+			 		<img src="../img/personal1.jpg" alt="">
+			 	</div>
+			 	<div class="personal2">
+			 		<img src="../img/personal2.jpg" alt="">
+			 	</div>
+			 	<div class="personal3">
+			 		<img src="../img/personal3.jpg" alt="">
+			 	</div>
+			 	<div class="personal4">
+			 		<img src="../img/personal4.jpg" alt="">
+			 	</div>
+			 	<div class="personal5">
+			 		<img src="../img/personal5.jpg" alt="">
+			 	</div>
+			 	<div class="personal6">
+			 		<img src="../img/personal6.jpg" alt="">
+			 	</div>
+			 	<div class="personal7">
+			 		<img src="../img/personal7-r.jpg" alt="">
+			 	</div>
+
+			 	<div class="personal9">
+			 		<img src="../img/personal9.jpg" alt="">
+			 	</div>
+			 	<div class="personal10">
+			 		<img src="../img/personal10-r.jpg" alt="">
+			 	</div>
+			 	<div class="personal11">
+			 		<img src="../img/personal11.jpg" alt="">
+			 	</div>
+			 	<div class="personal12">
+			 		<img src="../img/personal12.jpg" alt="">
+			 	</div>
+			 	<div class="personal13">
+			 		<img src="../img/personal13.jpg" alt="">
+			 	</div>
+			 	<div class="personal14">
+			 		<img src="../img/personal14.jpg" alt="">
+			 	</div>
+			 	<div class="personal15">
+			 		<img src="../img/personal15.jpg" alt="">
+			 	</div>
+			 	<div class="personal16">
+			 		<img src="../img/personal16.jpg" alt="">
+			 	</div>
+			 </div>
+		</div>
+		<div class="arriba5">
+			<a href="#arriba">
+				<img src="../img/flechaarriba.png">
+			</a>
+		</div>
+	</section>
+
+	<footer>
+		<p>Creado por María Pereda</p>
+		<div class="iconos">
+			<a href="https://www.youtube.com/user/milyval" target="_blanck"><img src="../img/youtube.png"></a>
+		</div>
+		
+	</footer>
+	
+</body>
+</html>

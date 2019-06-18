@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/estructura.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/fuentes.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+
+			$(".oscuro").css("background-color", "rgba(225, 225, 225, .3)");
+
+			$(".m-abrir").click(function(){
+
+				$("nav").css("display", "block");
+
+				$(".m-abrir").css("display", "none");
+
+				$(".m-cerrar").css("display", "block");
+
+			});
+
+			$(".m-cerrar").click(function(){
+
+				$("nav").css("display", "none");
+
+				$(".m-cerrar").css("display", "none");
+
+				$(".m-abrir").css("display", "block");
+
+			});
+
+			$('a[href*="#"]:not([href="#"])').click(function() {
+			  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+			    var target = $(this.hash);
+			    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+			    if (target.length) {
+			      $('html, body').animate({
+			        scrollTop: target.offset().top
+			      }, 700);
+			      return false;
+			    }
+			  }
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+		
+	<header class="oscuro">
+
+		<div class="logo">
+			<img src="../img/logo.png">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio                   </a></li>
+				<li><a href="diseñografico.html">Diseño Gráfico </a></li>
+				<li><a href="Dibujo.html">Dibujo e Ilustración  </a></li>
+				<li><a href="fotografia.html">Fotografía        </a></li>
+				<li><a href="multimedia.html">Multimedia        </a></li>
+				<li><a href="#">Sobre mí             	             </a></li>
+				<li><a href="contacto.html">Contacto            </a></li>
+			</ul>
+		</nav>
+
+		<div class="m-abrir">
+			<img src="../img/menu.png">
+		</div>
+
+		<div class="m-cerrar">
+			<img src="../img/menu.png">
+		</div>
+	</header>
+	
+	<section class="sobremi">	
+
+		<h3>¿Quién es María Pereda?</h3>
+
+		<div class="mihistoria">
+			
+			<img src="../img/maria.jpg" alt="">
+
+			<p>Nací en Madrid allá por el 1994.</p>
+			<p>Un día, loca de mí, decidí matricularme en la carrera de Bellas Artes y, ahora, aquí estoy, graduada en <span class="negrita">Bellas Artes</span> por la Universidad Complutense de Madrid. Y como soy un culo inquieto y me encanta el mundo digital, me he especializado en el <span class="negrita">Diseño Gráfico</span> (con un poquito de web).</p>
+			<p>Como estudiante de Bellas Artes que he sido, hago un poco de todo: <span class="negrita">dibujo, escultura, audiovisual, fotografía, grabado</span>... Aunque, últimamente, me ha dado por la <span class="negrita">ilustración digital</span>.</p>
+			<p>Colaboro con el Ayuntamiento de Valdenuño Fernández diseñando los carteles de los festejos patronales. Soy presidenta de la Asociación Cultural "Las Vilaneras" de Valdenuño Fernández. Y he participado en diferentes exposiciones colectivas como: "Despertando al Arte" (2014), "Grooves n' Waves" (2015) en la Tabacalera de Madrid y Cuerpo+Poder (2015) en el Pasaje de Fuencarral de Madrid.</p>
+			<p>Como no quiero aburriros mucho con mi historia os dejo mi currículum y mis cuentas de <a href="https://www.instagram.com/m.pereda/" target="_blanck"">Instagram</a> y <a href="https://www.youtube.com/user/milyval" target="_blanck">Youtube</a> donde podéis seguir mi trabajo</p>
+			<p><span class="salmon">¡Que os sea leve!</span></p>
+		</div>
+
+		<div class="curriculum">
+			<a href="../pdf/curriculum.pdf" target="_blanck">CURRICULUM</a>
+		</div>		
+	</section>
+
+	<footer>
+		<p>Creado por María Pereda</p>
+		<div class="iconos">
+			<a href="https://www.youtube.com/user/milyval" target="_blanck"><img src="../img/youtube.png"></a>			
+		</div>
+		
+	</footer>
+	
+</body>
+</html>
